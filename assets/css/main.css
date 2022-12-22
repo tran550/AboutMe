@@ -3221,7 +3221,7 @@ input, select, textarea {
 		position: relative;
 	}
 
-		.wrapper > .inner > .name {
+		.wrapper > .inner > .name{
 			margin-top: -1em;
 		}
 

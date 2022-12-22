@@ -3071,6 +3071,18 @@ input, select, textarea {
 			background-color: rgba(0, 0, 0, 0.1);
 		}
 
+		.spotlights > section:nth-child(4) {
+			background-color: rgba(0, 0, 0, 0);
+		}
+
+		.spotlights > section:nth-child(5) {
+			background-color: rgba(0, 0, 0, 0.05);
+		}
+
+		.spotlights > section:nth-child(6) {
+			background-color: rgba(0, 0, 0, 0.1);
+		}
+
 		.spotlights > section.inactive > .image:before,
 		body.is-preload .spotlights > section > .image:before {
 			opacity: 1;
@@ -3204,6 +3216,10 @@ input, select, textarea {
 	.wrapper {
 		position: relative;
 	}
+
+		.wrapper > .inner > .name {
+			margin-top: -1em;
+		}
 
 		.wrapper > .inner {
 			padding: 5em 5em 3em 5em ;

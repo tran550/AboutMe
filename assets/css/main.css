@@ -3221,6 +3221,14 @@ input, select, textarea {
 		position: relative;
 	}
 
+		.wrapper iframe {
+			height: 25em; 
+			width: 100em; 
+			margin-top:auto ; 
+			margin-bottom: auto; 
+			max-width: 100%
+		}
+
 		.wrapper > .inner > .name{
 			margin-top: -1em;
 		}
